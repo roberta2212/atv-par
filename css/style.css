@@ -77,7 +77,7 @@ header nav ul li {
     margin: 0px 10px 0px 10px;
 }
 header nav ul li a {
-    color: grey;
+    color: #868686;
 }
 header nav ul li.atual a {
     color: black;
@@ -88,6 +88,7 @@ header nav ul li.atual a {
 =========================================================*/
 section.titulo {
     display: flex;
+    background-color: rgb(222, 219, 219);
 
 }
 section.titulo p.acesso {
@@ -107,4 +108,65 @@ section.titulo button{
     font-weight: bold;
     padding: 20px 40px 20px 40px;
     border: transparent;
+} 
+
+section.point ul li{
+    display: flex;
+    background-color: rgb(222, 219, 219);
+    padding: 2vw;
+}
+section.point h2 {
+    display: flex;
+    justify-content: center; 
+    margin: 5vw 0vw 7vw 0vw;
+    font-weight: bold;
+}
+section.point ul li p.textos {
+    font-size: 0.6rem;
+    margin: 3vw 4vw 0vw 4vw;
+    line-height: 1.5em;
+}
+section.point ul li.texto2 {
+    background-color: white;
+    font-size: 0.6rem;
+    margin: 3vw 4vw 0vw 4vw;
+    line-height: 1.5em;
+} 
+section.tabela h2 {
+    display: flex;
+    justify-content: center; 
+    margin: 5vw 0vw 7vw 0vw;
+    font-weight: bold;
+}
+section.tabela ul {
+    display: flex;
+}
+section.tabela p {
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    padding: 1vw 10vw 0 2vw ;
+
+}
+section.tabela p span {
+    font-weight: bold;
+
+}
+footer ul  {
+    display: flex; 
+    justify-content: right;
+    margin: 0 12vw 0 0;
+
+
+}
+footer ul li a {
+    margin: 0vw 3vw 5vw 2vw;
+    color: #868686;
+}
+footer {
+    font-size: 0.5rem;
+    margin: 7vw 0 7vw 0;
+}
+footer p {
+    line-height: 1.3rem;
+    margin: 0 0 0 17vw;
 }
